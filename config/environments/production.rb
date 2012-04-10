@@ -65,5 +65,5 @@ MouseApp::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
   
-  config.action_mailer.default_url_options = { :host => 'localhost' }
+  config.action_mailer.default_url_options = { :host => 'strong-journey-3522.herokuapp.com' }
 end
