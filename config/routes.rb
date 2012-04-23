@@ -1,6 +1,7 @@
 MouseApp::Application.routes.draw do
   devise_for :users
   root :to => "staticpages#intro"
+  match 'staticpages/about' => 'staticpages#about', :as => :about
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
